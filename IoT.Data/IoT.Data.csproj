@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyTitle>物联网数据层</AssemblyTitle>
+    <Description>IoT数据层</Description>
+    <Company>新生命开发团队</Company>
+    <Copyright>©2002-2024 NewLife</Copyright>
+    <VersionPrefix>2.0</VersionPrefix>
+    <VersionSuffix>$([System.DateTime]::Now.ToString(`yyyy.MMdd`))</VersionSuffix>
+    <Version>$(VersionPrefix).$(VersionSuffix)</Version>
+    <FileVersion>$(Version)</FileVersion>
+    <AssemblyVersion>$(VersionPrefix).*</AssemblyVersion>
+    <Deterministic>false</Deterministic>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Config\**" />
+    <Compile Remove="Entity\Config\**" />
+    <Compile Remove="Entity\Log\**" />
+    <Compile Remove="Log\**" />
+    <EmbeddedResource Remove="Config\**" />
+    <EmbeddedResource Remove="Entity\Config\**" />
+    <EmbeddedResource Remove="Entity\Log\**" />
+    <EmbeddedResource Remove="Log\**" />
+    <None Remove="Config\**" />
+    <None Remove="Entity\Config\**" />
+    <None Remove="Entity\Log\**" />
+    <None Remove="Log\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DH.NCode" Version="3.7.2024.820" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IoTCore\IoTCore.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssemblyTitle>物联网网关</AssemblyTitle>
+    <Description>IoT边缘网关</Description>
+    <Company>新生命开发团队</Company>
+    <Copyright>©2002-2024 NewLife</Copyright>
+    <VersionPrefix>2.0</VersionPrefix>
+    <VersionSuffix>$([System.DateTime]::Now.ToString(`yyyy.MMdd`))</VersionSuffix>
+    <Version>$(VersionPrefix).$(VersionSuffix)</Version>
+    <FileVersion>$(Version)</FileVersion>
+    <AssemblyVersion>$(VersionPrefix).*</AssemblyVersion>
+    <Deterministic>false</Deterministic>
+    <OutputPath>..\Bin\IoTEdge</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DH.NBACnet" Version="3.7.2024.820-beta0845" />
+    <PackageReference Include="DH.NModbus" Version="3.7.2024.820-beta0928" />
+    <PackageReference Include="DH.NModbusRTU" Version="3.7.2024.820-beta0928" />
+    <PackageReference Include="DH.NMQTT" Version="3.7.2024.820" />
+    <PackageReference Include="DH.NNetPing" Version="3.7.2024.819-beta0912" />
+    <PackageReference Include="DH.NPC" Version="3.7.2024.819-beta0724" />
+    <PackageReference Include="DH.NSchneider" Version="3.7.2024.819-beta1123" />
+    <PackageReference Include="DH.NSiemens" Version="3.7.2024.819-beta1041" />
+    <PackageReference Include="DH.NStardust" Version="3.7.2024.820" />
+    <PackageReference Include="SmartA2" Version="1.1.2024.218" />
+    <PackageReference Include="SmartA4" Version="1.0.2023.606-beta1305" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IoTCore\IoTCore.csproj" />
+  </ItemGroup>
+
+</Project>
