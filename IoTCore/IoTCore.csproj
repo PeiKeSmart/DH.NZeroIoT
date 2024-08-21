@@ -4,8 +4,8 @@
     <TargetFrameworks>netstandard2.1;netstandard2.0;net461</TargetFrameworks>
     <AssemblyTitle>新生命IoT核心库</AssemblyTitle>
     <Description>IoT框架基础类库</Description>
-    <Company>新生命开发团队</Company>
-    <Copyright>©2002-2024 NewLife</Copyright>
+    <Company>湖北登灏科技有限公司</Company>
+    <Copyright>©2020-2024 湖北登灏科技有限公司</Copyright>
     <VersionPrefix>2.0</VersionPrefix>
     <VersionSuffix>$([System.DateTime]::Now.ToString(`yyyy.MMdd`))</VersionSuffix>
     <Version>$(VersionPrefix).$(VersionSuffix)</Version>
@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="DH.NIoT" Version="3.7.2024.819-beta06380001" />
+    <PackageReference Include="DH.NIoT" Version="3.7.2024.820-beta0922" />
     <PackageReference Include="DH.NRemoting" Version="3.7.2024.820" />
   </ItemGroup>
 

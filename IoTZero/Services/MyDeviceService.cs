@@ -409,5 +409,10 @@ public class MyDeviceService : IDeviceService
         var traceId = DefaultSpan.Current?.TraceId;
         var hi = DeviceHistory.Create(device as Device, action, success, remark, Environment.MachineName, ip, traceId);
     }
+
+    public IOnlineModel SetOnline(IDeviceModel device, Boolean online, String token, String ip) => throw new NotImplementedException();
+    public Int32 CommandReply(IDeviceModel device, CommandReplyModel model, String ip) => throw new NotImplementedException();
+    public Int32 PostEvents(IDeviceModel device, EventModel[] events, String ip) => throw new NotImplementedException();
+    public IUpgradeInfo Upgrade(IDeviceModel device, String channel, String ip) => throw new NotImplementedException();
     #endregion
 }

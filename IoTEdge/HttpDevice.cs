@@ -19,7 +19,6 @@ public class HttpDevice : ClientBase
     #endregion
 
     #region 构造
-    public HttpDevice() => Prefix = "Device/";
 
     public HttpDevice(ClientSetting setting) : base(setting)
     {
@@ -75,7 +74,7 @@ public class HttpDevice : ClientBase
         return request;
     }
 
-    public override Task<Object> CommandReply(CommandReplyModel model) => InvokeAsync<Object>("Thing/ServiceReply", new ServiceReplyModel
+    public override Task<Object> CommandReply(CommandReplyModel model, CancellationToken cancellationToken = default(CancellationToken)) => InvokeAsync<Object>("Thing/ServiceReply", new ServiceReplyModel
     {
         Id = model.Id,
         Status = (ServiceStatus)model.Status,

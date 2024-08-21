@@ -69,7 +69,7 @@ public class DeviceController : BaseDeviceController
     /// <summary>升级检查</summary>
     /// <returns></returns>
     [HttpGet(nameof(Upgrade))]
-    public override IUpgradeInfo Upgrade()
+    public override IUpgradeInfo Upgrade(string channel)
     {
         var device = Device ?? throw new ApiException(ApiCode.Unauthorized, "节点未登录");
 
