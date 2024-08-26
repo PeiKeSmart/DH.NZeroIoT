@@ -20,17 +20,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DH.NBACnet" Version="3.7.2024.821-beta0211" />
-    <PackageReference Include="DH.NModbus" Version="3.7.2024.820-beta0928" />
-    <PackageReference Include="DH.NModbusRTU" Version="3.7.2024.820-beta0928" />
-    <PackageReference Include="DH.NMQTT" Version="3.7.2024.821-beta0256" />
-    <PackageReference Include="DH.NNetPing" Version="3.7.2024.821-beta0258" />
-    <PackageReference Include="DH.NPC" Version="3.7.2024.821-beta0303" />
-    <PackageReference Include="DH.NSchneider" Version="3.7.2024.821-beta1107" />
-    <PackageReference Include="DH.NSiemens" Version="3.7.2024.821-beta1125" />
+    <PackageReference Include="DH.NBACnet" Version="3.7.2024.826-beta0613" />
+    <PackageReference Include="DH.NModbus" Version="3.7.2024.826-beta0608" />
+    <PackageReference Include="DH.NModbusRTU" Version="3.7.2024.826-beta0608" />
+    <PackageReference Include="DH.NMQTT" Version="3.7.2024.826-beta0621" />
+    <PackageReference Include="DH.NNetPing" Version="3.7.2024.826-beta0622" />
+    <PackageReference Include="DH.NPC" Version="3.7.2024.826-beta0625" />
+    <PackageReference Include="DH.NSchneider" Version="3.7.2024.826-beta0629" />
+    <PackageReference Include="DH.NSiemens" Version="3.7.2024.826-beta0630" />
     <PackageReference Include="DH.NSmartA2" Version="1.1.2024.821-beta1529" />
     <PackageReference Include="DH.NSmartA4" Version="1.0.2024.820-beta1036" />
-    <PackageReference Include="DH.NStardust" Version="3.7.2024.820" />
+    <PackageReference Include="DH.NStardust" Version="3.7.2024.826-beta0214" />
   </ItemGroup>
 
   <ItemGroup>
