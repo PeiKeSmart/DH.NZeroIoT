@@ -28,8 +28,8 @@
     <PackageReference Include="DH.NPC" Version="3.7.2024.826-beta0625" />
     <PackageReference Include="DH.NSchneider" Version="3.7.2024.826-beta0629" />
     <PackageReference Include="DH.NSiemens" Version="3.7.2024.826-beta0630" />
-    <PackageReference Include="DH.NSmartA2" Version="1.1.2024.821-beta1529" />
-    <PackageReference Include="DH.NSmartA4" Version="1.0.2024.820-beta1036" />
+    <PackageReference Include="DH.NSmartA2" Version="1.1.2024.826-beta0631" />
+    <PackageReference Include="DH.NSmartA4" Version="1.0.2024.826-beta0632" />
     <PackageReference Include="DH.NStardust" Version="3.7.2024.826-beta0214" />
   </ItemGroup>
 
