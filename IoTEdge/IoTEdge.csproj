@@ -21,15 +21,15 @@
 
   <ItemGroup>
     <PackageReference Include="DH.NBACnet" Version="3.7.2024.918-beta1016" />
-    <PackageReference Include="DH.NModbus" Version="3.7.2024.918-beta1152" />
-    <PackageReference Include="DH.NModbusRTU" Version="3.7.2024.918-beta1152" />
-    <PackageReference Include="DH.NMQTT" Version="3.7.2024.918-beta1047" />
-    <PackageReference Include="DH.NNetPing" Version="3.7.2024.918-beta1051" />
-    <PackageReference Include="DH.NPC" Version="3.7.2024.918-beta1051" />
-    <PackageReference Include="DH.NSchneider" Version="3.7.2024.918-beta1057" />
-    <PackageReference Include="DH.NSiemens" Version="3.7.2024.918-beta1100" />
+    <PackageReference Include="DH.NModbus" Version="3.7.2024.920-beta0149" />
+    <PackageReference Include="DH.NModbusRTU" Version="3.7.2024.920-beta0149" />
+    <PackageReference Include="DH.NMQTT" Version="3.7.2024.920-beta0134" />
+    <PackageReference Include="DH.NNetPing" Version="3.7.2024.920-beta0151" />
+    <PackageReference Include="DH.NPC" Version="3.7.2024.920-beta0158" />
+    <PackageReference Include="DH.NSchneider" Version="3.7.2024.920-beta0158" />
+    <PackageReference Include="DH.NSiemens" Version="3.7.2024.920-beta0159" />
     <PackageReference Include="DH.NSmartA2" Version="1.1.2024.912-beta0152" />
-    <PackageReference Include="DH.NSmartA4" Version="1.0.2024.912-beta0154" />
+    <PackageReference Include="DH.NSmartA4" Version="1.0.2024.918-beta1207" />
     <PackageReference Include="DH.NStardust" Version="3.7.2024.918-beta0838" />
   </ItemGroup>
 
