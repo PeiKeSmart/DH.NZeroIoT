@@ -23,8 +23,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="DH.NIoT" Version="3.7.2024.920-beta0135" />
-    <PackageReference Include="DH.NRemoting" Version="3.7.2024.920-beta0123" />
+    <PackageReference Include="DH.NIoT" Version="3.91.2024.1008-beta0833" />
+    <PackageReference Include="DH.NRemoting" Version="3.91.2024.1008-beta0825" />
   </ItemGroup>
 
 </Project>
